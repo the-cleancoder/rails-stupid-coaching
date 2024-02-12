@@ -1,0 +1,21 @@
+<div class="container w-50 mt-5 mx-auto p-5">
+<h1>Answers</h1>
+
+<figure class="text-end">
+  <blockquote class="blockquote">
+    <p><%=@question%></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+<figure class="text-end">
+  <blockquote class="blockquote">
+    <p><%=@response%></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    The Coach
+  </figcaption>
+</figure>
+<button class="btn btn-info"><%= link_to "ASK Again", ask_path %></button>
+</div>
